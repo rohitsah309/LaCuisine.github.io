@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container"> 
+            <div>
+                <div class="logo-text-row">
+                    <img src="logo.png" alt="La Cuisine logo" class="logo">
+                    <div class="logo-container">La Cuisine</div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=home.html>Home</a></li>
+                    <li><a href=about.html>About</a></li>
+                    <li><a href=menu.html>Menu</a></li>
+                    <li><a href=gallery.html>Gallery</a></li>
+                    <li><a href=contact.html class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="header-card">
+            <h1>Reservations & Contact</h1>
+            <p>We'd love to hear from you. Book a table or get in touch with any questions.</p>
+        </div>
+
+        <div class="main-grid">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fa-solid fa-location-dot contact-icon"></i>
+                    <div>
+                        <h3>Location</h3>
+                        <p>402 Talegaon Dabhade</p>
+                        <p>Pune,410506</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-phone contact-icon"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+918603867730</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <i class="fa-solid fa-envelope contact-icon"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>info@lacuisine.com</p>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-solid fa-clock contact-icon"></i>
+                    <div>
+                        <h3>Hours</h3>
+                        <p>Monday - Thrusday : 11:00 AM - 10:00 PM</p>
+                        <p>Friday - Saturday : 11:00 AM - 12:00 PM</p>
+                        <p>Saturday : 11:00 AM - 09:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-card">
+                <h2>Make a Reservation</h2>
+                
+                <form>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-user input-icon"></i>
+                            <input class="full-name" type="text" placeholder="Your Name" required/>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-envelope input-icon"></i>
+                                <input class="e-mail"type="email" placeholder="Email" required/>
+                            </div>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-phone input-icon"></i>
+                                <input class="phone-input" type="tel" placeholder="Phone" pattern="[0-9]{10}" maxlength="10" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-calendar input-icon"></i>
+                                <input class="date-time" type="date" placeholder="Date" required />
+                            </div>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-clock input-icon"></i>
+                                <input class="date-time" type="time" placeholder="Select time" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-users input-icon"></i>
+                            <input class="guest-no" type="text" placeholder="Number of Guests" />
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="form-label"></label>
+                            <i class="fa-regular fa-comments label-icon"></i>
+                            Special Requests(Optional):
+                        </label>
+                        <textarea class="special-request" placeholder="Any special instruction..." rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Request Reservation</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-info">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-logo">La Cuisine</h2>
+                <p>Experience Culinary excellence in an elegant atmosphere.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href=home.html>Home</a></li>
+                    <li><a href=about.html>About</a></li>
+                    <li><a href=menu.html>Menu</a></li>
+                    <li><a href=gallery.html>Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>402 Talegaon Dabhade</p>
+                <p>Pune, 41506</p>
+                <p>+918603867730</p>
+                <p>info@lacauisine.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100055041677543" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/rohitsah2004" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="http://www.youtube.com/@rohitsah2004" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rohit-kumar-1b7b17381" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://x.com/RohitSah2004" class="social-link">
+                        <i class="fa-brands fa-x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            @ 2025 La Cuisine. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
